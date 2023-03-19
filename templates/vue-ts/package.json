@@ -5,8 +5,6 @@
 		"client"
 	],
 	"scripts": {
-		"server": "yarn workspace server",
-		"client": "yarn workspace client",
 		"dev": "construct dev",
 		"build": "construct build",
 		"start": "node dist/main.cjs"
