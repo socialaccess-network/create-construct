@@ -21,7 +21,12 @@ const argv = minimist<{
 }>(process.argv.slice(2), { string: ['_'] })
 const cwd = process.cwd()
 
-const renameFiles: Record<string, string | undefined> = {}
+const renameFiles: Record<string, string | undefined> = {
+	_gitignore: '.gitignore',
+	_prettierrc: '.prettierrc',
+	'_yarnrc.yml': '.yarnrc.yml',
+	_env: '.env',
+}
 
 const defaultTargetDir = 'construct-project'
 
