@@ -1,3 +1,4 @@
+// this is mainly copied from create-vite with some tweaks made to fit the needs of this project
 import minimist from 'minimist'
 import path from 'node:path'
 import fs from 'node:fs'
