@@ -12,6 +12,6 @@
 		"start": "node dist/main.cjs"
 	},
 	"devDependencies": {
-		"@sa-net/construct": "^0.0.1"
+		"@sa-net/construct": "^0"
 	}
 }
