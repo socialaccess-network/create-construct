@@ -3,28 +3,31 @@
 	"version": "0.0.1",
 	"type": "module",
 	"description": "Create a new construct",
-	"bin": {
-		"create-construct": "./bin/create-construct.js"
-	},
+	"bin": "./bin/create-construct.js",
 	"files": [
 		"bin",
 		"dist",
+		"templates",
 		"package.json",
 		"README.md",
 		"LICENSE"
 	],
 	"packageManager": "yarn@3.3.0",
 	"scripts": {
-		"dev": "vite",
-		"build": "vite build",
+		"build": "unbuild",
 		"publish": "yarn build && yarn npm publish --access public"
 	},
 	"devDependencies": {
+		"@types/cross-spawn": "^6.0.2",
+		"@types/minimist": "^1.2.2",
 		"@types/node": "^18.15.3",
+		"@types/prompts": "^2.4.3",
+		"cross-spawn": "^7.0.3",
+		"kolorist": "^1.7.0",
 		"minimist": "^1.2.8",
 		"prompts": "^2.4.2",
 		"ts-node": "^10.9.1",
 		"typescript": "^5.0.2",
-		"vite": "^4.2.0"
+		"unbuild": "^1.1.2"
 	}
 }
