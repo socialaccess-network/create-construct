@@ -1,0 +1,15 @@
+{
+	"name": "${pkgName}",
+	"workspaces": [
+		"server",
+		"client"
+	],
+	"scripts": {
+		"dev": "construct dev",
+		"build": "construct build",
+		"start": "node dist/main.cjs"
+	},
+	"devDependencies": {
+		"@sa-net/construct": "^0"
+	}
+}

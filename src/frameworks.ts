@@ -1,4 +1,4 @@
-import { blue, green, yellow } from 'kolorist'
+import { blue, green, lightBlue, yellow } from 'kolorist'
 import { Framework } from './types'
 
 export const FRAMEWORKS: Framework[] = [
@@ -21,6 +21,18 @@ export const FRAMEWORKS: Framework[] = [
 		variants: [
 			{
 				name: 'vue-ts',
+				display: 'TypeScript',
+				color: blue,
+			},
+		],
+	},
+	{
+		name: 'react',
+		display: 'React',
+		color: lightBlue,
+		variants: [
+			{
+				name: 'react-ts',
 				display: 'TypeScript',
 				color: blue,
 			},
