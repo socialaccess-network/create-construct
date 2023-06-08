@@ -1,0 +1,5 @@
+CLIENT_URL=http://localhost:3000
+SERVER_URL=http://localhost:3001
+SERVER_SESSION_SECRET=super secret key goes here (this is used to encrypt session data)
+SERVER_PASSWORD_SALT=super secret salt goes here (this is used to encrypt passwords)
+SERVER_PASSWORD_SALT_ROUNDS=10

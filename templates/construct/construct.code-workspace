@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"name": "${pkgName}",
+			"path": "."
+		},
+		{
+			"name": "server",
+			"path": "./server"
+		},
+		{
+			"name": "client",
+			"path": "./client"
+		}
+	],
+	"settings": {
+		"javascript.preferences.importModuleSpecifier": "non-relative",
+		"typescript.preferences.importModuleSpecifier": "non-relative",
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"driver": "SQLite",
+				"name": "workspace",
+				"database": "./bin/database.sqlite"
+			}
+		]
+	}
+}
